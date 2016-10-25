@@ -1,0 +1,150 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper {
+    background-color: #ffffff;
+    width: 1060px;
+    height: 100vh;
+    margin: 0 auto;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.column {
+    float: left;
+}
+
+.menu1 {
+    width: 970px;
+    height: 40px;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 46px;
+    background-color: #555555;
+    background: linear-gradient(to right, #444343, #5e5e5e);
+}
+
+.link {
+    width: 100px;
+    height: 18px;
+    float: left;
+    display: inline-block;
+    text-decoration: none;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    font-family: 'Myriad Pro';
+    font-size: 15px;
+    font-weight: normal;
+    color: #ffffff;
+    text-shadow: 1px 1px 0px #000000;
+    box-sizing: padding-box;
+}
+
+.link:hover {
+    width: 100px;
+    height: 18px;
+    background: #3b3b3b;
+    border: 1px solid #838383;
+}
+
+.menu2 {
+    float: left;
+    width: 240px;
+    height: 245px;
+    margin-left: 40px;
+    margin-right: 46px;
+    margin-top: 38px;
+    border-top: 1px solid #c8c8c8;
+    border-right: 1px solid #c8c8c8;
+    border-left: 1px solid #c8c8c8;
+}
+
+.item {
+    display: inline-block;
+    width: 215px;
+    height: 40px;
+    padding-left: 25px;
+    text-decoration: none;
+    font-family: "Myriad Pro";
+    font-size: 14px;
+    color: #656363;
+    line-height: 30px;
+    border-bottom: 1px solid #c8c8c8;
+}
+
+.item:hover {
+    width: 205px;
+    height: 40px;
+    background: #f9f9f9;
+    color: #2c2c2c;
+    padding-left: 35px;
+    text-decoration: none;
+}
+
+.content {
+    float: right;
+    margin-right: 46px;
+    margin-top: 38px;
+    width: 678px;
+}
+
+.bike_photo {
+    text-align: center;
+    border: 1px solid #c8c8c8;
+}
+
+.text {
+    padding-top: 40px;
+    padding-left: 26px;
+    padding-right: 26px;
+    padding-bottom: 65px;
+    font-family: "Myriad Pro";
+    font-size: 14px;
+    text-align: left;
+    color: #2c2c2c;
+    line-height: 1.5;
+}
+
+.menu3 {
+    float: left;
+    width: 970px;
+    height: 40px;
+    margin: 40px;
+    background-color: #e1e1e1;
+}
+
+.lower_link {
+    float: left;
+    width: 100px;
+    height: 40px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: "Myriad Pro";
+    font-size: 14px;
+    color: #2c2c2c;
+}
+
+.lower_link:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    float: right;
+    font-family: "Myriad Pro";
+    font-size: 14px;
+    color: #2c2c2c;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-right: 38px;
+}
