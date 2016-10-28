@@ -13,7 +13,7 @@ body {
 
 .logo {
     margin-top: 50px;
-    margin-left: 40px;
+    margin-left: 46px;
 }
 
 .column {
@@ -24,59 +24,66 @@ body {
     width: 970px;
     height: 40px;
     margin-top: 40px;
-    margin-left: 40px;
+    margin-left: 46px;
     margin-right: 46px;
     background-color: #555555;
-    background: linear-gradient(to right, #444343, #5e5e5e);
+    background: linear-gradient(to top, #444343, #5e5e5e);
 }
 
 .link {
-    width: 100px;
-    height: 18px;
-    float: left;
     display: inline-block;
-    text-decoration: none;
-    margin: 0 auto;
-    padding-top: 15px;
-    padding-bottom: 5px;
+    width: 100px;
+    float: left;
+    padding-top: 12.5px;
+    padding-bottom: 12.5px;
     padding-left: 25px;
     font-family: 'Myriad Pro';
     font-size: 15px;
     font-weight: normal;
     color: #ffffff;
     text-shadow: 1px 1px 0px #000000;
-    box-sizing: padding-box;
+    box-sizing: border-box;
+    border-left: transparent;
+    border-right: transparent;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
 }
 
 .link:hover {
     width: 100px;
-    height: 18px;
     background: #3b3b3b;
-    border: 1px solid #838383;
+    border-left: 1px solid #c8c8c8;
+    border-right: 1px solid #c8c8c8;
 }
 
 .menu2 {
     float: left;
     width: 240px;
     height: 245px;
-    margin-left: 40px;
+    margin-left: 46px;
     margin-right: 46px;
     margin-top: 38px;
-    border-top: 1px solid #c8c8c8;
-    border-right: 1px solid #c8c8c8;
-    border-left: 1px solid #c8c8c8;
 }
 
 .item {
     display: inline-block;
     width: 215px;
     height: 40px;
+    padding-top: 3px;
     padding-left: 25px;
     text-decoration: none;
     font-family: "Myriad Pro";
     font-size: 14px;
     color: #656363;
     line-height: 30px;
+    border: 1px solid #c8c8c8;
+    border-bottom: none;
+}
+
+li:last-child {
     border-bottom: 1px solid #c8c8c8;
 }
 
